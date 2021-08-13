@@ -36,9 +36,12 @@ class Car {
   }
   setTipoCombustivel(e) {
     switch (e) {
-      case "Gasolina" || "gasolina ":
-      case "Etanol" || "etanol":
-      case "Diesel" || "diesel ":
+      case "Gasolina":
+      case "gasolina ":
+      case "Etanol":
+      case "etanol":
+      case "Diesel":
+      case "diesel ":
         this.object.tipoCombustivel = e;
         return e;
       default:

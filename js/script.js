@@ -76,6 +76,6 @@ car01.setTipoCombustivel("Gasolina");
 for (const key in car01.info()) {
   if (Object.hasOwnProperty.call(car01.info(), key)) {
     const element = car01.info()[key];
-    console.log(element);
+    console.log(`${key}: ${element}`);
   }
 }
